@@ -16,4 +16,5 @@ RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
 
 # TODO:
 # Install zsh
-
+# command shortcuts be etc
+# git
