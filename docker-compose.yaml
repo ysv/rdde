@@ -4,6 +4,7 @@ services:
   rdde:
     build: .
     ports:
+      # Port for rails servers.
       - "3000:3000"
       - "3001:3001"
       - "3002:3002"
@@ -12,7 +13,7 @@ services:
       - "1234:1234"
       - "26166:26168"
     volumes:
-      - "../.:/rrde"
+      - "../.:/rdde"
       - "gem_data:/usr/local/bundle"
     container_name: rrde
     command: "tail -f /dev/null"
