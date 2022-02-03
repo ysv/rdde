@@ -15,7 +15,7 @@ services:
     volumes:
       - "../.:/rdde"
       - "gem_data:/usr/local/bundle"
-    container_name: rrde
+    container_name: rdde
     command: "tail -f /dev/null"
 
   mysql:
